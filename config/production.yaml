@@ -1,0 +1,27 @@
+db_main:
+  host: instalocate-db-1.c7xgg6ijxmgb.us-west-2.rds.amazonaws.com
+  port: 5432
+  username: stanford
+  password: stanford#123
+  database: flightbot
+
+db_claimsapp:
+  host: compensationapp.c7xgg6ijxmgb.us-west-2.rds.amazonaws.com
+  port: 5432
+  username: instalocate
+  password: instalocate
+  database: compensation
+
+jarvis2:
+  host: compensationapp.c7xgg6ijxmgb.us-west-2.rds.amazonaws.com
+  port: 5432
+  username: instalocate
+  password: instalocate
+  database: jarvis
+
+info:
+  host: instalocate-db-4.c7xgg6ijxmgb.us-west-2.rds.amazonaws.com
+  port: 8080
+  username: instalocate
+  password: flights#123
+  database: instalocatedata
