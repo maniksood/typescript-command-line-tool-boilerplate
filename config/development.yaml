@@ -3,27 +3,7 @@ db_main:
   port: 5432
   username: postgres
   password: no_password
-  database: flightbot
+  database: test
 
-db_claimsapp:
-  host: 127.0.0.1
-  port: 5432
-  username: postgres
-  password: no_password
-  database: compensation
-
-jarvis2:
-  host: 127.0.0.1
-  port: 5432
-  username: postgres
-  password: no_password
-  database: jarvis2
-
-info:
-  host: 127.0.0.1
-  port: 5432
-  username: postgres
-  password: no_password
-  database: instalocatedata
 
 
